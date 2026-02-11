@@ -14,7 +14,7 @@ public class CalculatorService {
         }
         public double divide(double a, double b) throws InvalidOperationException {
             if (b == 0 ){
-                throw new ArithmeticException (" division to zero is not possible");}
+                throw new ArithmeticException (" **division to zero is not possible**");}
 
             return a/b;
         }
